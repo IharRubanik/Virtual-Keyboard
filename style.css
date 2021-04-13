@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 228, 228);
+}
+#keyboard{
+    width: 769px;
+    height: 256px;
+display: block;
+border: 2px solid black;
+padding: 5px;
+background: rgb(135, 131, 132);
+margin-left: auto;
+margin-right: auto;
+}
+.k-key{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    background: rgb(72, 70, 70);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.clearfix{
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.active{
+    background: rgb(181, 159, 202);
+}
+[data = "97"]{
+    margin-left: 35px;
+}
+[data = "122"]{
+    margin-left: 65px;
+}
+[data = "32"]{
+    width: 400px;
+    margin-left: 176px;
+}
+#entry-field{
+    width: 777px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    border: 2px solid black;
+    text-align: start ;
+}
+.name{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color: rgba(31, 72, 68, 0.707);
+}
